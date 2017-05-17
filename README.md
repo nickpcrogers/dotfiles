@@ -1,4 +1,2 @@
 # dotfiles
-Muh dotfiles
-
-Really only care about .vimrc
+Working on getting these up to date.
