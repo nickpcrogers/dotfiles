@@ -15,7 +15,7 @@ if !empty(glob("~/.vim/bundle"))
 
         syntax on
 else
-        syntax off
+        syntax on
 endif
 
 "Code Completion (not sure this does anything?)
