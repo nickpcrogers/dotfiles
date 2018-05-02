@@ -11,7 +11,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-alias ls='ls --color=auto'
+if test `uname` = Linux; then
+	alias ls='ls --color=auto'
+else
+	alias ls='ls -G'
+fi
 alias python='python3'
 
 # Prompt
