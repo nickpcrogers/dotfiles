@@ -7,12 +7,14 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/nick/.zshrc'
 
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+fpath+=('/usr/local/lib/node_modules/pure-prompt/functions')
+
 alias ls='ls --color=auto'
-alias python='python3'
 
 # Prompt
 autoload -U promptinit
