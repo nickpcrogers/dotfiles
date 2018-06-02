@@ -12,9 +12,18 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+<<<<<<< HEAD
 fpath+=('/usr/local/lib/node_modules/pure-prompt/functions')
 
 alias ls='ls --color=auto'
+=======
+if test `uname` = Linux; then
+	alias ls='ls --color=auto'
+else
+	alias ls='ls -G'
+fi
+alias python='python3'
+>>>>>>> 39377e14f5e0729bec5cca6d0e1ad45d7f9c2fac
 
 # Prompt
 autoload -U promptinit
