@@ -31,3 +31,6 @@ prompt pure
 #env variables
 export EDITOR=vim
 export PATH=$PATH:~/.bin
+
+# machine-specific stuff 
+source ~/.profile
